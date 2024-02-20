@@ -1,0 +1,103 @@
+
+
+h2{
+    color: bisque;
+}
+
+
+.holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.widget{
+    border: 5px dashed brown;
+    padding: 20px 20px 20px 20px;
+    background-color: azure;
+    margin-inline: 20px;
+    color: crimson;
+    height: 30%;
+    width: 20%;
+}
+
+
+
+ /* Widget animations  */
+ .widget.scale-up-br {
+    -webkit-animation: scale-up-br 1s ease-out both;
+    animation: scale-up-br 1s ease-out both;
+  }
+  
+  @-webkit-keyframes scale-up-br {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform-origin: 100% 100%;
+      transform-origin: 100% 100%;
+    }
+    100% {
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+      -webkit-transform-origin: 100% 100%;
+      transform-origin: 100% 100%;
+    }
+  }
+  
+  @keyframes scale-up-br {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform-origin: 100% 100%;
+      transform-origin: 100% 100%;
+    }
+    100% {
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+      -webkit-transform-origin: 100% 100%;
+      transform-origin: 100% 100%;
+    }
+  }
+
+  .scale-up-bl {
+    -webkit-animation: scale-up-bl 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: scale-up-bl 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+
+@-webkit-keyframes scale-up-bl {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+}
+@keyframes scale-up-bl {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+}
+
+
+img{
+  width: 100%;
+  display: inherit;
+  height: 90%;
+  margin: 0 auto;
+}

@@ -1,0 +1,18 @@
+h1{
+    color: bisque;
+}
+
+.MovieWidget{
+    /* width: 10%;
+    height: 5%; */
+    margin: 10% 10% 10% 10%;
+}
+
+ul{
+    width: 70%;
+    height: 80%;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
